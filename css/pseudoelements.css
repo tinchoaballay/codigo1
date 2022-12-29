@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+header {
+  background-color: darksalmon;
+}
+nav {
+  padding: 20px;
+}
+ul li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.main {
+  text-align: center;
+  height: 80vh;
+}
+
+.main p {
+  text-align: justify;
+}
+
+.footer {
+  background-color: darksalmon;
+  height: 80px;
+  padding: 20px;
+  text-align: end;
+}

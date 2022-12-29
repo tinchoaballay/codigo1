@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/especificidad.css" />
+    <title>CSS - Especificidad</title>
+  </head>
+  <body>
+    <header class="menu">
+      <nav>
+        <h3>Noticias Geek 🤓</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Registro</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="principal">
+        <h1>Noticias Geek 🤓</h1>
+        <hr />
+        <div class="centrar">
+          <img src="../assets/banner.png" alt="banner" />
+        </div>
+      </section>
+      <section>
+        <!-- primer artículo  -->
+        <article class="nota">
+          <header>
+            <img
+              src="https://tn.com.ar/resizer/EyvfdCNa7rDy6nnT1ofsuGr3Yis=/1440x0/smart/cloudfront-us-east-1.images.arcpublishing.com/artear/5ZQEGQL5TNCX7EV32YUFS77E7U.jpeg"
+              alt="noticia 1"
+            />
+          </header>
+          <section>
+            <h3>
+              WhatsApp: los usuarios aman mandar mensajes de voz pero no
+              escucharlos
+            </h3>
+            <p>
+              Uno puede enviar un mensaje de voz mientras está ocupado haciendo
+              otras cosas. Pero para oirlos, se necesita tiempo y espacio.
+              Además, hay gente que prefiere la llamada telefónica o el mensaje
+              de texto.
+            </p>
+          </section>
+          <footer>
+            <button>Ver mas...</button>
+          </footer>
+        </article>
+        <!-- segundo artículo  -->
+        <article class="nota">
+          <header>
+            <img
+              src="https://tn.com.ar/resizer/ar3giypYqZqy4ATEYMiclBXhths=/1440x0/smart/cloudfront-us-east-1.images.arcpublishing.com/artear/MLXMJRGOZNAYDPLWRNTUAWTQZM.jpg"
+              alt="noticia 2"
+            />
+          </header>
+          <section>
+            <h3>
+              Alan Swoboda creó una plataforma para aprender a programar y ahora
+              le enseña a miles de personas.
+            </h3>
+            <p>
+              Tenía 19 años cuando arrancó. Ahora apuesta a la Inteligencia
+              Artificial, una de las tecnologías más requeridas por las
+              empresas.
+            </p>
+          </section>
+          <footer>
+            <button>Ver mas...</button>
+          </footer>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <h3>Nuestras redes</h3>
+      <span>Facebook |</span>
+      <span>Instagram |</span>
+      <span>TikTok</span>
+      <p>
+        <small
+          >Noticias Geek 🤓 2022 &copy; Todos los derechos reservados</small
+        >
+      </p>
+    </footer>
+  </body>
+</html>
